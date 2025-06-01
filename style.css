@@ -1,0 +1,25 @@
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #e1f5fe;
+  padding: 2em;
+}
+.container {
+  background: white;
+  border-radius: 16px;
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  color: #0277bd;
+}
+button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 8px;
+  cursor: pointer;
+}
