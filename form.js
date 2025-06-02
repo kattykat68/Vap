@@ -12,7 +12,7 @@ document.getElementById('intake-form').addEventListener('submit', function(e) {
   });
   data['score'] = score;
 
-  fetch('https://script.google.com/macros/s/AKfycbwvPPE47Gf0McpCd7L1KVPDhwRm7q30KFSlZqgRviTV8FbTixeEDGNSAKhAS4WEFPMc/exec', {
+ https://script.google.com/macros/s/AKfycbzJEl-6rhmHkuu7UYlVE77lzFWaw0zBSHEnkXlYdnNK/dev
     method: 'POST',
     body: JSON.stringify(data)
   })
